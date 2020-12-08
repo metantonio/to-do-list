@@ -51,7 +51,10 @@ const Home = () => {
 											onClick={e => {
 												deleteItems(index);
 											}}>
-											<i className="fas fa-items" />
+											<i
+												className="fa fa-times"
+												aria-hidden="true"
+											/>
 										</button>
 									</li>
 								</>
