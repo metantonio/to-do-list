@@ -70,3 +70,4 @@ const Home = () => {
 	);
 };
 export default Home;
+//corregido 8-12-20
