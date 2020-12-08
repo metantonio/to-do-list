@@ -1,4 +1,4 @@
-# Hello World with React boilerplate
+# To Do List! with React boilerplate
 <p>
   <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
   </a>
@@ -9,8 +9,8 @@ This template is similar to create-react-app but it's meant for 4Geeks Academy s
 ##### Download the boilerplate using git
 
 ```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
+$ git clone https://github.com/metantonio/to-do-list
+$ cd to-do-list
 ```
 
 ##### and install the npm package:
