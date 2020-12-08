@@ -41,19 +41,26 @@ const Home = () => {
 					<ul className="list-group list-group-flush">
 						{lista.map((cosas, index) => {
 							return (
-								<li key={index} className="list-group-item">
-									<div>{cosas}</div>
-									<button
-										onClick={e => {
-											deleteItems(index);
-										}}>
-										Eliminar
-									</button>
-								</li>
+								<>
+									<li
+										key={index}
+										className="list-group-item d-flex justify-content-between">
+										{cosas}
+										<button
+											className="btn btn-light"
+											onClick={e => {
+												deleteItems(index);
+											}}>
+											<i className="fas fa-items" />
+										</button>
+									</li>
+								</>
 							);
 						})}
 					</ul>
-					<p className="card-footer text-muted">contador</p>
+					<p className="card-footer text-muted">
+						{lista.length} tareas por realizar
+					</p>
 				</div>
 			</div>
 		</>
