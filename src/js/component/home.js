@@ -62,7 +62,9 @@ const Home = () => {
 						})}
 					</ul>
 					<p className="card-footer text-muted">
-						{lista.length} tareas por realizar
+						{lista.length > 0
+							? `${lista.length} tareas por completar`
+							: "Agregar tareas"}
 					</p>
 				</div>
 			</div>
